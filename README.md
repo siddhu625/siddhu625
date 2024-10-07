@@ -27,6 +27,63 @@ You can click the Preview link to take a look at your changes.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Webpage</title>
     <link rel="stylesheet" href="styles.css">
+ <style>
+ body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width
+    : 100%;
+}
+</style>
 </head>
 <body>
     <header>
@@ -50,11 +107,11 @@ You can click the Preview link to take a look at your changes.
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>You can contact me at email@example.com.</p>
+            <p>You can contact me Siddhu gayake@gmail.com.</p>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 My Simple Webpage</p>
+        <p>&copy; 2024 My Webpage</p>
     </footer>
 </body>
 </html>
